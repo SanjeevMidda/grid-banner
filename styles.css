@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 10% 80% 10%;
+}
+
+.banner {
+  grid-column: 1 / -1;
+}
+
+.text {
+  grid-column: 2 / 3;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.one {
+  font-size: 2rem;
+}
+
+.two {
+  font-size: 0.5rem;
+}
+
+.three {
+  font-size: 1.5rem;
+}
